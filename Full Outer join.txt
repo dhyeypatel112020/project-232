@@ -1,0 +1,4 @@
+select Customers.customer_id
+from Customers
+FULL OUTER JOIN Orders
+on Customers.customer_id=Orders.customer_id

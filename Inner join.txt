@@ -1,0 +1,4 @@
+select Customers.customer_id,Customers.first_name
+from Customers
+inner join Orders
+on Customers.customer_id=Orders.customer_id
